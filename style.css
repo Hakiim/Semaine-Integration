@@ -1,0 +1,221 @@
+@font-face{
+  font-family: 'MainLevee';
+  src: url('../font/MainLevee/main%20lev%C3%A9e-regular-ju.ttf');
+}
+
+@font-face{
+  font-family: 'TerminalDosis';
+  src: url('../font/BB/Copie%20de%20TerminalDosis-VaivaiRegular.ttf');
+}
+
+@font-face{
+  font-family: 'BigBimbo';
+  src: url('../font/BB/Big%20Bimbo%20NC.ttf');
+}
+
+
+/*
+**************
+Slider********
+**************
+*/
+
+.monSlider{
+  margin: 0 auto;
+}
+
+.monSlider-slide{
+  position:relative;
+}
+
+.monSlider-slide .informations{
+  position:absolute;
+  background:rgba(255,255,255,0.6);
+  bottom:0;
+  left:0;
+  width:100%;
+  text-align: center;
+}
+
+.informations p, .informations h2{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+
+.slick-prev{
+  left:25px;
+  z-index:99;
+}
+
+.slick-next{
+  right:25px;
+  z-index:99;
+}
+
+.slick-prev,
+.slick-next
+{
+    font-size: 20px;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+/*
+**************
+Nav***********
+**************
+*/
+
+.fLeft{
+  float: left;
+}
+
+nav ul li{
+  list-style-type: none;
+
+}
+
+ header nav div div ul li a{
+  font-family: 'MainLevee', sans-serif;
+  font-size: 1.3em;
+}
+
+ header nav div div ul li a:visited{
+  text-decoration: overline;
+  color: black;
+}
+
+ header nav div div ul li a:link{
+  text-decoration: none;
+  color: black;
+}
+
+ header nav div div ul li a:active{
+  text-decoration: none;
+  color: black;
+}
+
+.rose{
+  color: #ed237a;
+}
+
+/*
+**************
+Section*******
+**************
+*/
+
+.pasLa{
+  display: none;
+}
+
+.relat{
+  position: relative;
+}
+
+article div div:hover div.pasLa{
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background:rgba(255,255,255,0.6);
+  text-align: center;
+}
+
+.fondVai{
+  background-image: url('../images/background.png');
+}
+
+.backgroundVert{
+  background-image: url('../images/pattern-green-triangle.png');
+}
+
+.centrer{
+  text-align: center;
+}
+
+.vertiCentre{
+  padding-top: 20%;
+}
+
+/*
+**************
+Footer********
+**************
+*/
+
+footer{
+  background-color: #ecf0f1;
+}
+
+footer nav div ul{
+  text-align: center;
+}
+
+footer nav div ul li{
+  list-style-type: none;
+  padding-top: 13px;
+  text-align: center;
+  margin: 0;
+}
+
+footer nav div ul li img{
+  float: left;
+  max-width: 20%;
+  max-height: 20%;
+}
+
+footer nav div ul li p{
+  padding-top: 1%;
+  font-family: 'TerminalDosis', sans-serif;
+  font-size: 2vmin;
+}
+
+footer nav div ul.pitit{
+  font-size: 1.1vmin;
+}
+
+/*
+**************
+Page Evenement
+**************
+*/
+
+.typeEvent{
+  font-size: 2.5em;
+  font-family: 'BigBimbo', sans-serif;
+  color: #a2ffc9;
+}
+
+.vertAkwa{
+  color: #a2ffc9;
+  font-family: 'BigBimbo', sans-serif;
+}
+
+.patternWood{
+  background-image: url('../images/fond-pattern-wood.jpg');  
+}
+
+.fondGeo{
+  background-image: url('../images/fond-production_SingleProductPage.jpg');   
+}
