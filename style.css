@@ -327,3 +327,14 @@ Page CAddict**
 **************
 */
 
+.gauche{
+  text-align: left;
+}
+
+.droite{
+  text-align: right;
+}
+
+.margeHaut{
+  margin-top: 3%;
+}
